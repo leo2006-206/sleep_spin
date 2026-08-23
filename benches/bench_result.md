@@ -112,7 +112,7 @@ Running Normal lock code bench
 ### Double Checking Lock Pattern (DCLP) bench
 Like lock based lock-free code
 
-```rust
+```rust, ignore
 loop {
 	let temp = val_clone.load(Ordering::Relaxed);
 	let next_vel = uint_task(temp);

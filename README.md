@@ -155,7 +155,7 @@ Measures wall-clock completion time across different numbers of threads, workloa
 
 Use `run_bench(bench_mod: i32)` to run all benchmarks:
 
-```rust
+```rust, ignore
 match bench_mod {
     1 => println!("Running Normal lock code bench"),
     2 => println!("Running DCLP bench"),
@@ -176,7 +176,7 @@ Locks compared:
 
 Tasks:
 
-```rust
+```rust, ignore
 let tasks: [(&str, fn(u64) -> u64); 3] = [
     // 1. SHORT (~1-2 CPU cycles): Basic increment
     ("Short (Add)", |x| x.wrapping_add(1)),
