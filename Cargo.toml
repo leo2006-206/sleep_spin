@@ -1,0 +1,15 @@
+[package]
+name = "sleep_spin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lock_api = "0.4"
+
+[[bench]]
+name = "lock_bench"
+harness = false
+
+[dev-dependencies]
+parking_lot = "0.12"
+spin = "0.9"
