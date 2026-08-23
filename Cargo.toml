@@ -2,9 +2,9 @@
 name = "sleep_spin"
 version = "0.1.0"
 edition = "2024"
-authors = ["Leo Wong <ss121073121073@gmail.com>"]
+authors = ["Leo Wong <leowong121073@gmail.com>"]
 description = "A fast spinlock implementation that yields via nanosleep under high contention."
-license = "MIT OR Apache-2.0"
+license = "Apache-2.0"
 repository = "https://github.com/leo2006-206/sleep_spin"
 readme = "README.md"
 keywords = ["spinlock", "mutex", "concurrency", "lock_api", "dclp"]
