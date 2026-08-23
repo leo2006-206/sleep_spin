@@ -1,4 +1,4 @@
-#![doc = include_str!("./doc.md")]
+#![doc = include_str!("../README.md")]
 
 // src/lib.rs
 
